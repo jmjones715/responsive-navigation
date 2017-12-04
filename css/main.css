@@ -5,17 +5,21 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
-}
+  font: normal 100%/1.3 sans serif;
+  }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
 
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
+  body {
+    margin: 0;
+  }
 
 header {
   padding: .5rem 0;
